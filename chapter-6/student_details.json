@@ -1,0 +1,16 @@
+[
+	{"type":"header","version":"5.1.1","comment":"Export to JSON plugin for PHPMyAdmin"},
+	{"type":"database","name":"college"},
+	{"type":"table","name":"student_details","database":"college","data":
+		[
+			{"Roll":"101","Name":"Maruf","Gender":"Male","Age":"21","GPA":"4.52","City":"Dhaka"},
+			{"Roll":"102","Name":"Arif","Gender":"Male","Age":"17","GPA":"4.56","City":"Cumilla"},
+			{"Roll":"103","Name":"Mahabuba","Gender":"Female","Age":"18","GPA":"4.68","City":"Sylhet"},
+			{"Roll":"104","Name":"Shimul","Gender":"Male","Age":"16","GPA":"4.57","City":"Barishal"},
+			{"Roll":"105","Name":"Sharmin","Gender":"Female","Age":"18","GPA":"4.63","City":"Rangpur"},
+			{"Roll":"106","Name":"Nayan","Gender":"Male","Age":"19","GPA":"4.89","City":"Nowakhali"},
+			{"Roll":"107","Name":"Murad","Gender":"Male","Age":"20","GPA":"4.78","City":"Chittagong"},
+			{"Roll":"108","Name":"Anika","Gender":"Female","Age":"21","GPA":"4.43","City":"Sylhet"}
+		]
+	}
+]

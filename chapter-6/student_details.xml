@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+- phpMyAdmin XML Dump
+- version 5.1.1
+- https://www.phpmyadmin.net
+-
+- Host: localhost
+- Generation Time: Aug 18, 2021 at 11:29 AM
+- Server version: 10.4.19-MariaDB
+- PHP Version: 8.0.7
+-->
+
+<pma_xml_export version="1.0" xmlns:pma="https://www.phpmyadmin.net/some_doc_url/">
+    <!--
+    - Structure schemas
+    -->
+    <pma:structure_schemas>
+        <pma:database name="college" collation="utf8mb4_general_ci" charset="utf8mb4">
+            <pma:table name="student_details">
+                CREATE TABLE `student_details` (
+                  `Roll` int(11) NOT NULL,
+                  `Name` varchar(15) DEFAULT NULL,
+                  `Gender` varchar(15) DEFAULT NULL,
+                  `Age` int(11) DEFAULT NULL,
+                  `GPA` double(3,2) DEFAULT NULL,
+                  `City` varchar(10) DEFAULT NULL,
+                  PRIMARY KEY (`Roll`)
+                ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+            </pma:table>
+        </pma:database>
+    </pma:structure_schemas>
+
+    <!--
+    - Database: 'college'
+    -->
+    <database name="college">
+        <!-- Table student_details -->
+        <table name="student_details">
+            <column name="Roll">101</column>
+            <column name="Name">Maruf</column>
+            <column name="Gender">Male</column>
+            <column name="Age">21</column>
+            <column name="GPA">4.52</column>
+            <column name="City">Dhaka</column>
+        </table>
+        <table name="student_details">
+            <column name="Roll">102</column>
+            <column name="Name">Arif</column>
+            <column name="Gender">Male</column>
+            <column name="Age">17</column>
+            <column name="GPA">4.56</column>
+            <column name="City">Cumilla</column>
+        </table>
+        <table name="student_details">
+            <column name="Roll">103</column>
+            <column name="Name">Mahabuba</column>
+            <column name="Gender">Female</column>
+            <column name="Age">18</column>
+            <column name="GPA">4.68</column>
+            <column name="City">Sylhet</column>
+        </table>
+        <table name="student_details">
+            <column name="Roll">104</column>
+            <column name="Name">Shimul</column>
+            <column name="Gender">Male</column>
+            <column name="Age">16</column>
+            <column name="GPA">4.57</column>
+            <column name="City">Barishal</column>
+        </table>
+        <table name="student_details">
+            <column name="Roll">105</column>
+            <column name="Name">Sharmin</column>
+            <column name="Gender">Female</column>
+            <column name="Age">18</column>
+            <column name="GPA">4.63</column>
+            <column name="City">Rangpur</column>
+        </table>
+        <table name="student_details">
+            <column name="Roll">106</column>
+            <column name="Name">Nayan</column>
+            <column name="Gender">Male</column>
+            <column name="Age">19</column>
+            <column name="GPA">4.89</column>
+            <column name="City">Nowakhali</column>
+        </table>
+        <table name="student_details">
+            <column name="Roll">107</column>
+            <column name="Name">Murad</column>
+            <column name="Gender">Male</column>
+            <column name="Age">20</column>
+            <column name="GPA">4.78</column>
+            <column name="City">Chittagong</column>
+        </table>
+        <table name="student_details">
+            <column name="Roll">108</column>
+            <column name="Name">Anika</column>
+            <column name="Gender">Female</column>
+            <column name="Age">21</column>
+            <column name="GPA">4.43</column>
+            <column name="City">Sylhet</column>
+        </table>
+    </database>
+</pma_xml_export>
