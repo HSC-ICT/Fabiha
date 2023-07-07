@@ -1,0 +1,44 @@
+for making a directory -->
+type --> mkdir <directory name>
+	example : 
+		mkdir HTML
+
+for remove a directory --> 
+type --> rmdir <directory name>
+	example : 
+		rmdir HTML
+
+for create a file --> 
+type --> touch <file name>
+	example : 
+		touch index.html
+
+for remove a file -->
+type --> rm <file name>
+	example : 
+		rm index.html
+		
+for checking current path -->
+type --> pwd
+
+for checking all the files and folder under a directory -->
+type --> ls
+
+for going to the next directory -->
+type --> cd <directory name>
+	example : 
+		cd HTML
+
+for going to the previous directory -->
+type --> cd ..
+
+for clearing the terminal --> 
+type --> clear
+
+for watching all the directories and files like a tree structure -->
+type --> tree
+
+for closing running process --> 
+type --> ctrl + c
+	
+
