@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SVG</title>
+</head>
+<body>
+    <!-- SVG defines vector-based graphics in XML format.
+What is SVG?
+
+    SVG stands for Scalable Vector Graphics
+    SVG is used to define graphics for the Web
+    SVG is a W3C recommendation
+
+The HTML <svg> Element
+
+The HTML <svg> element is a container for SVG graphics.
+
+SVG has several methods for drawing paths, boxes, circles, text, and graphic images. -->
+
+    <!-- SVG Circle -->
+    <svg width="100" height="100">
+        <circle cx="50" cy="50" r="40" stroke="green" stroke-width="4" fill="yellow" />
+        <!-- cx for circle in x axis -->
+        <!-- cy for circle in y axis -->
+        <!-- r for radius of the circle -->
+        <!-- srtoke for outline of the circle -->
+        <!-- fill means what color inside the circle should be -->
+        <!-- stroke-width="4" = stroke-width="4px" -->
+        <!-- similarly cx, cy, r, width, height (value) is pixel -->
+    </svg>
+    <br><br>
+    <!-- SVG Rectangle -->
+    <svg width="400" height="100">
+        <rect width="400" height="100" style="fill:green;stroke-width:10;stroke:crimson" />
+        <!-- rect for rectangle -->
+    </svg>
+    <br><br>
+    <!-- SVG Rounded Rectangle -->
+    <svg width="400" height="200">
+        <rect x="50" y="20" rx="20" ry="200" width="150" height="150"
+        style="fill:red;stroke:black;stroke-width:5;opacity:0.7" />
+        <!-- x for x axis of the webpage -->
+        <!-- y for y axis of the webpage -->
+        <!-- rx for rectangle corner in x axis -->
+        <!-- ry for rectangle corner in y axis -->
+        <!-- play with rx and ry's value-->
+        <!-- play with the opacity value
+        The limit of opacity is 0 to 1 -->
+    </svg>
+</body>
+</html>
